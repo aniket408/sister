@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d32">
+  <title>Bhakti's Magical Universe ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="welcome-screen" id="welcomeScreen" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+    <div class="welcome-card">
+      <div class="welcome-sparkles" aria-hidden="true">✦　✧　♡　✧　✦</div>
+      <p class="eyebrow">A SPECIAL COUNTDOWN FOR SOMEONE SPECIAL</p>
+      <h1 id="welcomeTitle">Bhakti’s <em>22nd Birthday</em></h1>
+      <p class="welcome-date">15 November 2026 <span>•</span> Born on 15 November 2004</p>
+      <div class="countdown" aria-live="polite">
+        <div><strong id="countDays">--</strong><span>Days</span></div>
+        <div><strong id="countHours">--</strong><span>Hours</span></div>
+        <div><strong id="countMinutes">--</strong><span>Minutes</span></div>
+        <div><strong id="countSeconds">--</strong><span>Seconds</span></div>
+      </div>
+      <p class="welcome-note" id="countdownMessage">Every second brings us closer to your special day. ♡</p>
+      <button class="primary-btn" id="enterUniverse">Enter your magical universe <span>✧</span></button>
+      <p class="welcome-from">Made with love, from your brother</p>
+    </div>
+  </div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="glow glow-one"></div><div class="glow glow-two"></div>
+  <nav class="topbar">
+    <a class="brand" href="#home">✦ B<span>hakti</span></a>
+    <div class="navlinks"><a href="#portrait">Special portrait</a><a href="#memories">Memories</a><a href="#surprise">Surprise</a><a href="#wish">A little wish</a></div>
+    <button class="music-btn" id="musicBtn" aria-label="Toggle background music">♫ <span>Music off</span></button>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE UNIVERSE, MADE JUST FOR YOU</p>
+        <div class="tiny-stars">✧　✦　⋆　✧</div>
+        <h1>Happy Birthday,<br><em>Chiku</em></h1>
+        <p class="hero-text">Some people make life brighter just by being in it.<br>This little universe is for one of them — <strong>you.</strong></p>
+        <a class="primary-btn" href="#memories">Enter your universe <span>✧</span></a>
+        <p class="from-line">With love, from your brother ♡</p>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-photo-wrap"><img src="assets/bhakti_5.jpg" alt="Bhakti smiling in a beautiful traditional saree"></div>
+        <span class="float-star star-a">✦</span><span class="float-star star-b">✧</span>
+        <span class="float-heart">♡</span><span class="float-butterfly">🦋</span>
+        <div class="photo-caption">A star in my universe</div>
+      </div>
+      <div class="scroll-note">SCROLL TO FEEL THE MAGIC <span>↓</span></div>
+    </section>
+
+    <section class="intro section-pad">
+      <p class="eyebrow">NOT JUST A WEBSITE</p>
+      <h2>A small place for <em>big feelings.</em></h2>
+      <p class="section-desc">I may not say it every day, but having you as my sister is one of life's sweetest gifts. So I collected a few smiles and made this little corner of the universe just for you.</p>
+      <div class="sparkle-line">✧ ───────── ♡ ───────── ✧</div>
+    </section>
+
+
+    <section class="portrait-page" id="portrait">
+      <div class="portrait-heading">
+        <p class="eyebrow">A PAGE, JUST FOR YOU</p>
+        <h2>To My Forever <em>Favourite Girl ♡</em></h2>
+<p>You are beautiful in every little way. Never forget how special you are. ♡</p>      </div>
+      <div class="portrait-art">
+        <img src="assets/bhakti_collage.jpeg" alt="A full portrait collage of Bhakti in her turquoise and pink saree">
+      </div>
+      <a class="portrait-next" href="#memories">Continue to your memories <span>↓</span></a>
+    </section>
+
+    <section class="memories section-pad" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">THE GALLERY OF YOU</p>
+        <h2>Beautiful moments, <em>beautiful you.</em></h2>
+        <p class="section-desc">Every picture holds a little moment worth keeping.</p>
+      </div>
+      <div class="gallery">
+        <button class="photo-card tall" data-photo="assets/bhakti_1.jpg"><img src="assets/bhakti_1.jpg" alt="Bhakti in a purple and pink saree"><span>Grace in every little detail ✨</span></button>
+        <button class="photo-card" data-photo="assets/bhakti_2.jpg"><img src="assets/bhakti_2.jpg" alt="Bhakti by the riverside"><span>Keep shining, always ♡</span></button>
+        <button class="photo-card tall" data-photo="assets/bhakti_3.jpg"><img src="assets/bhakti_3.jpg" alt="Bhakti with a guitar"><span>Your own kind of magic ✦</span></button>
+        <button class="photo-card" data-photo="assets/bhakti_4.jpg"><img src="assets/bhakti_4.jpg" alt="Bhakti sitting in a purple saree"><span>A smile to remember</span></button>
+        <button class="photo-card tall" data-photo="assets/bhakti_5.jpg"><img src="assets/bhakti_5.jpg" alt="Bhakti in a turquoise saree"><span>Elegance and joy 🦋</span></button>
+        <button class="photo-card" data-photo="assets/bhakti_6.jpg"><img src="assets/bhakti_6.jpg" alt="Bhakti seated in a turquoise saree"><span>Made of sunshine</span></button>
+        <button class="photo-card" data-photo="assets/bhakti_7.jpg"><img src="assets/bhakti_7.jpg" alt="Bhakti smiling among palm leaves"><span>Stay wonderfully you ♡</span></button>
+      </div>
+      <p class="gallery-hint">Tap any photo to see it closer ✧</p>
+    </section>
+
+    <section class="message-section section-pad" id="surprise">
+      <div class="message-card">
+        <div class="card-stars">✦　✧　⋆　✧　✦</div>
+        <p class="eyebrow">A SECRET FROM YOUR BROTHER</p>
+        <h2>There is a little <em>surprise</em> for you...</h2>
+        <p class="section-desc">Some feelings are too special to fit into an ordinary birthday wish.</p>
+        <button class="primary-btn" id="openLetter">Open your little surprise <span>♡</span></button>
+        <div class="letter" id="letter" aria-hidden="true">
+          <div class="letter-inner">
+            <div class="letter-heart">♡</div>
+            <h3>Dear Didu,</h3>
+            
+
+<p>You know how special you are to me. Even though we may not be sisters by blood, you are my sister by heart, my best friend, and my sweetest companion.</p>
+
+<p>I wish that every dream of yours comes true, every happiness finds its way to you, and you always keep smiling. I hope you stay by my side forever, just the way you are.</p>
+
+<p>No matter what life brings, remember that you will always have a brother who loves you, supports you, and believes in you.</p>
+
+<p class="sign">With endless love,<br><strong>Your Brother ❤️</strong></p>
+<p class="birthday-wish">Wishing you many, many happy returns of the day, Chiku! 😁🎂</p>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="cake-section section-pad">
+      <p class="eyebrow">MAKE A WISH</p>
+      <h2>One candle, <em>a thousand dreams.</em></h2>
+      <div class="cake" id="cake">
+        <div class="flame" id="flame">✦</div>
+        <div class="candle"></div>
+        <div class="icing"></div><div class="cake-top"></div><div class="cake-base"><span>HAPPY</span><span>DAY</span></div>
+        <div class="cake-plate"></div>
+      </div>
+      <button class="primary-btn" id="blowBtn">Make a wish & blow the candle ✨</button>
+      <p class="cake-note" id="cakeNote">Close your eyes, make a wish, and tap the button.</p>
+    </section>
+
+    <section class="final-wish section-pad" id="wish">
+      <div class="final-frame">
+        <p class="eyebrow">TO MY FOREVER LITTLE STAR</p>
+        <h2>May your life be as lovely<br>as your <em>heart.</em></h2>
+        <p>May every new day bring you courage, laughter, kind people, beautiful surprises, and dreams coming true. You deserve all the happiness in the world.</p>
+        <div class="big-heart">♡</div>
+        <h3>Happy Birthday, Sister!</h3>
+        <p class="final-sign">Always proud to be your brother.</p>
+        <button class="wish-btn" id="celebrateBtn">Celebrate one more time ✨</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>Made with lots of love, just for Bhakti <span>♡</span></footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button id="closeLightbox" aria-label="Close photo">×</button><img id="lightboxImg" src="" alt="Selected memory"></div>
+  <div class="confetti-layer" id="confettiLayer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
